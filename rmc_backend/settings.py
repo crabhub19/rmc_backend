@@ -257,20 +257,19 @@ CORS_ALLOW_ALL_ORIGINS = True
 DOMAIN = os.getenv('FRONTEND_DOMAIN')
 
 
-CORS_ORIGIN_WHITELIST = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-]
+# CORS_ORIGIN_WHITELIST = [
+#     "http://localhost:5173",
+#     "http://127.0.0.1:5173",
+# ]
 
 
-CORS_ALLOW_CREDENTIALS = True  # Allows cookies (if needed)
-CORS_ALLOW_HEADERS = [
-    "content-type",
-    "authorization",
-]
+# CORS_ALLOW_CREDENTIALS = True  # Allows cookies (if needed)
+# CORS_ALLOW_HEADERS = [
+#     "content-type",
+#     "authorization",
+# ]
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
-CSRF_COOKIE_SECURE = False
-CSRF_COOKIE_HTTPONLY = False
-CSRF_USE_SESSIONS = False
+# CSRF_COOKIE_SECURE = False
+# CSRF_COOKIE_HTTPONLY = False
+# CSRF_USE_SESSIONS = False
